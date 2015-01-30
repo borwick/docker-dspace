@@ -1,0 +1,7 @@
+<?xml version='1.0'?>
+<Context
+    docBase="/var/www/dspace/webapps/solr"
+    debug="0"
+    reloadable="true"
+    cachingAllowed="false"
+    allowLinking="true"/>
