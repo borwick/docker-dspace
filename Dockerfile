@@ -31,9 +31,8 @@ ADD tomcat-config/* /usr/local/tomcat/conf/Catalina/localhost/
 COPY docker-entrypoint.sh /entrypoint.sh
 
 VOLUME /var/www/dspace
-WORKDIR /var/www/dspace
 # USER dspace
 
-# ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["/entrypoint.sh"]
 CMD ["catalina.sh", "run"]
 # CMD /bin/bash
